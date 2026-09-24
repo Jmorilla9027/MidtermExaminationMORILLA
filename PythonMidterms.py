@@ -1,5 +1,6 @@
 print("=" * 39)
 print("    SALES RECORD MANAGEMENT SYSTEM   ")
+print("=" * 39)
 print("1. Add Sale Record")
 print("2. View All Records & Summary Statistics")
 print("3. Clear All Sales Data")
