@@ -10,9 +10,11 @@ print("=" * 39)
 choice = input("Select and option (1-4:)")
 
 if choice == "1":
-    input("Enter Item Name: ")
-    int(input("Enter Item Quantity Sold: "))
-    float(input("Enter Item Price /unit: "))
+    itemName = input("Enter Item Name:")
+    quantitySold = int(input("Enter Item Quantity Sold: "))
+    perUnit = float(input("Enter Item Price /unit: "))
+    total = quantitySold * perUnit
+    print(itemName, quantitySold, perUnit, total)
 
 elif choice == "2":
     exit()
